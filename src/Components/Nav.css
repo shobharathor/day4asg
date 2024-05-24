@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+
+}
+.firstphase{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo{
+    width: 50px;
+   
+}
+ .links{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+ a{
+   list-style: none;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   font-size: 20px;
+ }
+
+ .secondphase{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  float: right;
+  padding-right: 30px;
+ 
+  }
+
+  button{
+    padding: 10px;
+    background-color: rgb(21, 173, 21);
+    color: white;
+
+  }
